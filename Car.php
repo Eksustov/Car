@@ -3,6 +3,7 @@
 class Car {
     public $brand;
     private $mileage;
+    static $describe;
     public static $value = 3.14159;
     
     public static function makeNoise() {

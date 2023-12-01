@@ -14,13 +14,15 @@ echo "<br>";
 $bird2 = new Bird("Matis", 52);
 echo "$bird2->name <br>";*/
 
-/*$car1 = new Car("Skoda", 256);
+$car1 = new Car("Skoda", 256);
 $car2 = new Car("Bugartu", 267);
 
-$car2->increaseMileage(240);*/
+$car2->increaseMileage(240);
 
-$tire1 = new Tire(25, "Winter", "Battle-scarred");
-echo "<br>Size: $tire1->size <br> Type: $tire1->type <br>";
+echo $car1::$describe."<br>";
+
+/*$tire1 = new Tire(25, "Winter", "Battle-scarred");
+echo "<br>Size: $tire1->size <br> Type: $tire1->type <br>";*/
 
 $car1 = new Car("Skoda", 1241451);
 echo $car1::$describe;

@@ -11,4 +11,6 @@ abstract class Animal {
     public function birthday(){
         $age = $age + 1;
     }
+
+    abstract static function payAttention();
 }

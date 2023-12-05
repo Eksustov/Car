@@ -3,6 +3,12 @@
 abstract class Vehicle {
     public $brand;
     protected $mileage;
+    static $describe = "car car";
+
+    public function __construct($b, $m){
+        $this->brand = $b;
+        $this->mileage =$m;
+    }
 
     public function increaseMileage($amount){
         $this->mileage = $this->mileage + $amount;

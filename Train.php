@@ -8,8 +8,8 @@ public function __construct(
     $mileage,
     public $trackGauge, 
     ){
-        $this->brand=$brand;
-        $this->mileage=$mileage;
+        parent::__construct($brand, $mileage);
+        $this->trackGauge=$trackGauge;
     }
 
 static function makeNoise(){
